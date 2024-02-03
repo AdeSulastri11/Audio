@@ -60,7 +60,7 @@ const loadData = () => {
             <p>${element.name}<br>Rp ${element.price}</p>
             <span class="d-grid justify-content-center">
               <a href="products.html">
-                <button class="btn btn-dark">Visit</button>
+                <button class="btn btn-dark">Check Out</button>
               </a>
             </span>
           </div>
