@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+  --bg-headphone-black: #f4f4f3;
+  --bg-headphone-green: #e0e5df;
+  --bg-headphone-purple: #f6dced;
+  --main-bg: #f7f7f7;
+  --text: #333333;
+
+  --bg-dot-black: #565656;
+  --bg-dot-green: #687450;
+  --bg-dot-purple: #955188;
+}
+
+* {
+  color: var(--text);
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.bg-main {
+  z-index: 1;
+}
+
+nav,
+.title-product h2 {
+  font-family: "EB Garamond", serif;
+}
+
+.bagian-nav,
+.Navbarnav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 99999999;
+}
+span q {
+  font-size: 100px;
+}
+
+#navbar.scrolled,
+#itemNav li a.item,
+#title-brand.title,
+.Navbarnav {
+  background-color: var(--text);
+  color: white;
+}
+
+#title,
+.item-nav li a {
+  color: white;
+}
+
+.item-navbar li a {
+  color: black;
+}
+
+.content {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  font-family: "EB Garamond", serif;
+}
+
+.content-teks h1 {
+  font-size: 4rem;
+  font-family: "EB Garamond", serif;
+}
+.content-teks p {
+  text-align: justify;
+}
+
+.main-title {
+  font-size: 60px;
+}
+
+.line-dot {
+  z-index: 1;
+  right: 130px;
+  top: 90px;
+}
+
+.dot-bg {
+  top: -100px;
+  right: -135px;
+  z-index: -1;
+  max-width: 100%;
+  max-height: 100%;
+  width: 535px;
+  height: 550px;
+  background-color: var(--bg-dot-black);
+  transition: all 0.5s ease-in-out;
+}
+
+.dot-bg-sec {
+  bottom: -100px;
+  left: -30px;
+  z-index: -1;
+  max-width: 100%;
+  max-height: 100%;
+  width: 235px;
+  height: 250px;
+  background-color: var(--bg-dot-black);
+  transition: all 0.5s ease-in-out;
+}
+
+.headphone-black {
+  max-width: 70%;
+  width: 100%;
+  transform: rotate(-300deg);
+}
+
+.headphone-thumb {
+  max-width: 60px;
+  width: 100%;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.headphone-thumb:hover {
+  transform: translateY(-13px);
+  transition: all 0.3s ease-in;
+}
+
+/* Temukan */
+.find-product {
+  padding-top: 50px;
+}
+
+.find-headphone svg path:hover {
+  max-width: 100%;
+  fill: var(--bg-dot-black);
+}
+
+/* ================ PRODUCTS ========== */
+.products,
+.earphones,
+.speakers {
+  justify-content: center;
+  display: grid;
+  row-gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
+}
+
+.product {
+  background-color: var(--bg-headphone-black);
+  width: 210px;
+  max-width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-product {
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+}
+
+/* content */
+.polygon {
+  position: absolute;
+  z-index: -1;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 250px;
+  width: 60rem;
+  height: 80vh;
+  left: -400px;
+  background-color: var(--bg-headphone-purple);
+}
+.img-headphone img {
+  width: 23rem;
+  transform: rotate(-12deg);
+}
+
+/* temukan */
+.earbuds-spesifik,
+.headphone-spesifik,
+.speaker-spesifik {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 3fr));
+}
+
+/* testimoni */
+.testimoni {
+  width: 22rem;
+  height: 100%;
+}
+.testimoni-main h1 {
+  font-family: "EB Garamond", serif;
+}
+/* footer */
+.footer, .footer h5, .footer h2 {
+  background: var(--text);
+  font-family: "EB Garamond", serif;
+}
+.offcanvas {
+  padding-top: 300px;
+}
+.footer div, .footer p, .footer ul li a, .footer svg path{
+  color: white;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+}
+@media (max-width: 600px) {
+  .row-spesifik {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 800px) {
+  .img-headphone img {
+    width: 200px;
+  }
+  .polygon {
+    width: 40rem;
+    height: 35vh;
+  }
+}

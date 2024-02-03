@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "image": "testimoni1.jpg",
+    "teks": "Outstanding sound quality! Comfortable fit, great buy!"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Johnson",
+    "image": "testimoni2.jpg",
+    "teks": "Perfect birthday gift for my son. Stylish design, seamless Bluetooth."
+  },
+  {
+    "id": 3,
+    "name": "Alex M.",
+    "image": "testimoni3.jpg",
+    "teks": "Surpassed my expectations. Noise cancellation is a game-changer!"
+  }
+]

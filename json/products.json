@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "category": "headphone",
+    "name": "SonicWave Elite",
+    "price": 1499000,
+    "image": "headphone-1.png",
+    "spesifikasi": [
+      "Frekuensi Respons: 20Hz - 20kHz",
+      "Sensitivitas: 105 dB",
+      "Konektivitas: Wired 3.5mm jack",
+      "Impedansi: 32 ohm",
+      "Driver: 40mm neodymium"
+    ]
+  },
+  {
+    "id": 2,
+    "category": "headphone",
+    "name": "EchoBeats Pro",
+    "price": 1799000,
+    "image": "headphone-2.png", 
+    "spesifikasi": [
+      "Driver: 50mm dynamic",
+      "Frekuensi Respons: 18Hz - 22kHz",
+      "Impedansi: 35 ohm",
+      "Sensitivitas: 110 dB",
+      "Konektivitas: Bluetooth 5.0"
+    ]
+  },
+  {
+    "id": 3,
+    "category": "headphone",
+    "name": "PulseSync Ultra",
+    "price": 2299000,
+    "image": "headphone-3.png", 
+    "spesifikasi": [
+      "Driver: Dual driver hybrid",
+      "Frekuensi Respons: 16Hz - 25kHz",
+      "Impedansi: 28 ohm",
+      "Konektivitas: Wireless dengan teknologi NFC",
+      "Kontrol Sentuh untuk pengaturan playback"
+    ]
+  },
+  {
+    "id": 4,
+    "category": "headphone",
+    "name": "AeroSound Fusion",
+    "price": 1899000,
+    "image": "headphone-4.png",
+    "spesifikasi": [
+      "Driver: 45mm graphene diaphragm",
+      "Frekuensi Respons: 22Hz - 18kHz",
+      "Impedansi: 30 ohm",
+      "Sensitivitas: 120 dB",
+      "Earcup dapat diputar 180 derajat"
+    ]
+  },
+  {
+    "id": 5,
+    "category": "headphone",
+    "name": "NovaAudio Xperience",
+    "price": 2499000,
+    "image": "headphone-5.png",
+    "spesifikasi": [
+      "Driver: Planar Magnetic",
+      "Frekuensi Respons: 10Hz - 40kHz",
+      "Konektivitas: Detachable cable dengan konektor MMCX",
+      "Earcup dapat diputar 180 derajat",
+      "Sensitivitas: 120 dB"
+    ]
+  },
+  {
+    "id": 6,
+    "category": "headphone",
+    "name": "HarmonyWave Supreme",
+    "price": 2099000,
+    "image": "headphone-6.png",
+    "spesifikasi": [
+      "Driver: 38mm dynamic",
+      "Frekuensi Respons: 20Hz - 22kHz",
+      "Desain On-Ear dengan bantalan telinga berlapis",
+      "Fitur Active Noise Cancellation (ANC)",
+      "Konektivitas: Wireless Bluetooth 4.2"
+    ]
+  },
+  {
+    "id": 7,
+    "category": "headphone",
+    "name": "ZenithAudio Eclipse",
+    "price": 2799000,
+    "image": "headphone-7.png",
+    "spesifikasi": [
+      "Driver: 53mm dynamic",
+      "Frekuensi Respons: 16Hz - 28kHz",
+      "Impedansi: 50 ohm",
+      "Konektivitas: Wired USB Type-C",
+      "Kontrol suara terintegrasi"
+    ]
+  },
+  {
+    "id": 8,
+    "category": "headphone",
+    "name": "VortexSound Precision",
+    "price": 1699000,
+    "image": "headphone-8.png",
+    "spesifikasi": [
+      "Driver: 40mm neodymium",
+      "Frekuensi Respons: 18Hz - 20kHz",
+      "Impedansi: 28 ohm",
+      "Desain Over-Ear dengan earcup yang dapat diputar",
+      "Konektivitas: Wired 3.5mm jack"
+    ]
+  },
+  {
+    "id": 9,
+    "category": "headphone",
+    "name": "LunaSync Horizon",
+    "price": 2199000,
+    "image": "headphone-9.png",
+    "spesifikasi": [
+      "Driver: 42mm dynamic",
+      "Frekuensi Respons: 15Hz - 25kHz",
+      "Sensitivitas: 110 dB",
+      "Konektivitas: Wireless Bluetooth 5.0",
+      "Built-in microphone untuk panggilan hands-free"
+    ]
+  },
+  {
+    "id": 10,
+    "category": "headphone",
+    "name": "StellarTunes Deluxe",
+    "price": 2599000,
+    "image": "headphone-10.png",
+    "spesifikasi": [
+      "Driver: Dual driver hybrid",
+      "Frekuensi Respons: 20Hz - 22kHz",
+      "Impedansi: 32 ohm",
+      "Konektivitas: Detachable cable dengan konektor MMCX",
+      "Desain ergonomis untuk kenyamanan pemakaian lama"
+    ]
+  }
+]

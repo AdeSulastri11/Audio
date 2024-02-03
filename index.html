@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Audio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/style/style.css">
+</head>
+
+<body>
+  <section class="bagian-nav" id="navbar">
+    <div class="container p-2 pt-4">
+      <nav class="d-flex justify-content-between">
+        <div class="d-flex align-items-center">
+          <h2><a href="#" class="navbar-brand fw-bold" id="title-brand">Audio</a></h2>
+          <div class="navbar-collapse d-sm-none d-none d-lg-block">
+            <ul class="d-flex flex-row navbar-nav mx-5 item-navbar align-items-center" id="itemNav">
+              <li class="nav-item mx-3">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Temukan
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/html/headphones.html">Headphone</a></li>
+                  <li><a class="dropdown-item" href="/html/earbuds.html">Earbuds</a></li>
+                  <li><a class="dropdown-item" href="/html/speaker.html">Speaker</a></li>
+                </ul>
+              </li>
+              <li class="nav-item mx-3"><a href="/html/products.html" class="text-decoration-none">Products</a></li>
+              <li class="nav-item mx-3"><a href="#contact" class="text-decoration-none">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="d-flex align-items-center">
+          <div class="d-none d-sm-none d-lg-block">
+            <div class="input-group flex-nowrap ">
+              <span class="input-group-text" id="addon-wrapping">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                </svg>
+              </span>
+              <input type="text" class="form-control" placeholder="Search" aria-label="Username"
+                aria-describedby="addon-wrapping" disabled>
+            </div>
+          </div>
+          <div class="d-lg-none d-sm-block" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-list"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+            </svg>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <!-- canvas -->
+  <div class="offcanvas offcanvas-end pt-5" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header pt-5 d-grid justify-content-end">
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="d-flex flex-row navbar-nav mx-5 item-navbar align-items-center">
+        <li class="nav-item mx-3">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Temukan
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/html/headphones.html">Headphone</a></li>
+            <li><a class="dropdown-item" href="/html/earbuds.html">Earbuds</a></li>
+            <li><a class="dropdown-item" href="/html/speaker.html">Speaker</a></li>
+          </ul>
+        </li>
+        <li class="nav-item mx-3"><a href="/html/products.html" class="text-decoration-none">Products</a></li>
+        <li class="nav-item mx-3"><a href="#" class="text-decoration-none">Support</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- content -->
+  <section class="content bg-main">
+    <div class="d-flex align-items-center justify-content-center content container">
+      <div class="row row-cols-md-2 align-items-center justify-content-between gap-0">
+        <div class="col-md-6">
+          <h1 class="main-title">Welcome to the World of High-Quality Audio!</h1>
+        </div>
+        <div class="col-md-5 justify-content-center d-flex">
+          <img src="img/headphone-black.png" class="headphone-black">
+        </div>
+      </div>
+    </div>
+
+    <!-- Dot bg -->
+    <section class="d-flex justify-content-end">
+      <div class="position-absolute dot-bg right-0 rounded-circle">
+        <img src="img/line dot.png" class="line-dot position-absolute">
+      </div>
+      <div class="dot-bg-sec position-absolute left-0 rounded-circle"></div>
+    </section>
+    <!-- headphone thumb -->
+    <div class="d-flex justify-content-center">
+      <div class="position-absolute bottom-0">
+        <img src="img/headphone-black.png" class="headphone-thumb"
+          onclick="imgSlider('img/headphone-black.png'); changeColorDots('#565656'); changeColorBgMain('#F4F4F3')">
+        <img src="img/headphone-green.png" class="headphone-thumb"
+          onclick="imgSlider('img/headphone-green.png'); changeColorDots('#687450'); changeColorBgMain('#E0E5DF')">
+        <img src="img/headphone-purpleBlue.png" class="headphone-thumb headphone-purpleBlue"
+          onclick="imgSlider('img/headphone-purpleBlue.png'); changeColorDots('#955188'); changeColorBgMain('#F6DCED')">
+      </div>
+    </div>
+  </section>
+
+  <!-- temukan -->
+  <section class="container find-product mt-5 d-flex justify-content-around">
+    <!-- headphone -->
+    <div class="d-flex flex-column align-items-center">
+      <div class="card find-headphone rounded-circle">
+        <div class="p-3">
+          <a href="/html/headphones.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 24 24">
+              <path fill="currentColor"
+                d="M20 12v-1.707c0-4.442-3.479-8.161-7.755-8.29c-2.204-.051-4.251.736-5.816 2.256A7.933 7.933 0 0 0 4 10v2c-1.103 0-2 .897-2 2v4c0 1.103.897 2 2 2h2V10a5.95 5.95 0 0 1 1.821-4.306a5.977 5.977 0 0 1 4.363-1.691C15.392 4.099 18 6.921 18 10.293V20h2c1.103 0 2-.897 2-2v-4c0-1.103-.897-2-2-2" />
+            </svg></a>
+        </div>
+      </div>
+      <h5 class="pt-2">Headphone</h5>
+    </div>
+    <!-- earbuds -->
+    <div class="d-flex flex-column align-items-center">
+      <div class="card find-headphone rounded-circle">
+        <div class="p-3">
+          <a href="/html/earbuds.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 24 24">
+              <path fill="currentColor"
+                d="M10 8v12c0 .55-.45 1-1 1H8c-.55 0-1-.45-1-1v-6.73c-.68.45-1.39.73-2 .73c-2 0-3-2-3-3V6c0-1 1-3 3-3s5 3 5 5m6.5-5C13.46 3 11 5.46 11 8.5s2.46 5.5 5.5 5.5S22 11.54 22 8.5S19.54 3 16.5 3m-2 11.68V20c0 .55.45 1 1 1h2c.55 0 1-.45 1-1v-5.32c-.63.21-1.3.32-2 .32s-1.37-.11-2-.32" />
+            </svg></a>
+        </div>
+      </div>
+      <h5 class="pt-2">Earbuds</h5>
+    </div>
+    <!-- spekaer -->
+    <div class="d-flex flex-column align-items-center">
+      <div class="card find-headphone rounded-circle">
+        <div class="p-3">
+          <a href="/html/speaker.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 24 24">
+              <path fill="currentColor"
+                d="M17 22H7q-.825 0-1.412-.587T5 20V4q0-.825.588-1.412T7 2h10q.825 0 1.413.588T19 4v16q0 .825-.587 1.413T17 22M12 9q.825 0 1.413-.587T14 7q0-.825-.587-1.412T12 5q-.825 0-1.412.588T10 7q0 .825.588 1.413T12 9m0 10q1.65 0 2.825-1.175T16 15q0-1.65-1.175-2.825T12 11q-1.65 0-2.825 1.175T8 15q0 1.65 1.175 2.825T12 19m0-2q-.825 0-1.412-.587T10 15q0-.825.588-1.412T12 13q.825 0 1.413.588T14 15q0 .825-.587 1.413T12 17" />
+            </svg></a>
+        </div>
+      </div>
+      <h5 class="pt-2">Speaker</h5>
+    </div>
+  </section>
+
+  <section class="pt-5 container">
+    <!-- <div class="polygon"> -->
+    <!-- </div> -->
+    <div class="row gap-5 row-cols-md-1 row-cols-lg-3 justify-content-between align-items-center">
+      <div class="col">
+        <div class="img-headphone d-flex justify-content-center">
+          <img src="/img/headphone/headphone-5.png">
+        </div>
+      </div>
+      <div class="col col-lg-6 content-teks">
+        <h1>Best Quality</h1>
+        <p id="content1"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- testimoni -->
+  <section class="container text-center testimoni-main pt-5">
+    <h1>Testimoni</h1>
+    <div class="testimoniBody gap-3 row justify-content-around row-cols-1 row-cols-sm-2 row-cols-md-4 pt-3">
+    </div>
+  </section>
+
+  <!-- contanct -->
+  <div class="pt-5"></div>
+  <section class="container pt-5" id="contact">
+    <div class="row justify-content-center d-flex row-cols-1 row-cols-lg-2 align-items-center">
+      <div class="col gap-3 d-flex flex-column">
+        <div class="input-group flex-nowrap border border-success-subtle rounded">
+          <span class="input-group-text" id="addon-wrapping">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill"
+              viewBox="0 0 16 16">
+              <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+            </svg>
+          </span>
+          <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+            aria-describedby="addon-wrapping">
+        </div>
+        <div class="input-group flex-nowrap border border-success-subtle rounded">
+          <span class="input-group-text" id="addon-wrapping">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-envelope-fill" viewBox="0 0 16 16">
+              <path
+                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+            </svg>
+          </span>
+          <input type="email" class="form-control" placeholder="Email" aria-label="Email"
+            aria-describedby="addon-wrapping">
+        </div>
+        <div class="input-group flex-nowrap border border-success-subtle rounded">
+          <span class="input-group-text" id="addon-wrapping">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-unlock-fill"
+              viewBox="0 0 16 16">
+              <path
+                d="M11 1a2 2 0 0 0-2 2v4a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h5V3a3 3 0 0 1 6 0v4a.5.5 0 0 1-1 0V3a2 2 0 0 0-2-2" />
+            </svg>
+          </span>
+          <input type="password" class="form-control" placeholder="Password" aria-label="Password"
+            aria-describedby="addon-wrapping">
+        </div>
+        <div class="input-group border border-success-subtle rounded">
+          <span class="input-group-text">With textarea</span>
+          <textarea class="form-control" cols="10" rows="7" aria-label="With textarea"></textarea>
+        </div>
+        <div class="d-grid justify-content-center">
+          <button type="button" class="btn btn-outline-success">Submit</button>
+        </div>
+      </div>
+      <div class="col pt-4">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254731.00089136284!2d122.37223180197881!3d-3.98503326612932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d98ecde0b6b7183%3A0x1397347f9e562fc7!2sKendari%2C%20Kota%20Kendari%2C%20Sulawesi%20Tenggara!5e0!3m2!1sid!2sid!4v1706865944407!5m2!1sid!2sid"
+          width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <div class="pt-5"></div>
+  <div class="pt-5"></div>
+  <footer class="footer border gap-3 text-white d-flex align-items-center p-5 ">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>Audio</h2>
+          <p>Connecting you to premium audio experiences.
+            Explore our collection of high-quality headphones.
+            Discover the perfect sound for your lifestyle.
+          </p>
+        </div>
+        <div class="col d-flex align-items-center flex-column">
+          <div>
+            <h5>Links</h5>
+            <ul class="navbar-nav">
+              <li><a href="/html/headphones.html" class="text-decoration-none">Headphone</a></li>
+              <li><a href="/html/earbuds.html" class="text-decoration-none">Earphone</a></li>
+              <li><a href="/html/speaker.html" class="text-decoration-none">Speaker</a></li>
+              <li><a href="/html/products.html" class="text-decoration-none">All Products</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col">
+          <h5>Social Media</h5>
+          <p>Stay connected on social media for the latest updates and offers.</p>
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
+              viewBox="0 0 16 16">
+              <path
+                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+            </svg>
+          </a>
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook"
+              viewBox="0 0 16 16">
+              <path
+                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+            </svg>
+          </a>
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin"
+              viewBox="0 0 16 16">
+              <path
+                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+            </svg>
+          </a>
+        </div>
+        <div class="col">
+          <h5>Contact Us</h5>
+          <p>123 Street, Cityville <br> Email: info@headphoneecommerce.com <br> Phone: +1 (555) 123-4567</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- script js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

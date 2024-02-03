@@ -1,0 +1,86 @@
+[
+  {
+    "id": 17,
+    "category": "speaker",
+    "name": "EchoTune Harmony",
+    "price": 2000000,
+    "image": "speaker-1.png",
+    "spesifikasi": [
+      "Output Daya: 20 Watt",
+      "Frekuensi Respons: 50 Hz - 20 kHz",
+      "Koneksi: Bluetooth 5.0",
+      "Bobot: 1.5 kg",
+      "Fitur Khusus: Teknologi Noise-Canceling"
+    ]
+  },
+  {
+    "id": 18,
+    "category": "speaker",
+    "name": "SonicWave Fusion",
+    "price": 2500000,
+    "image": "speaker-2.png",
+    "spesifikasi": [
+      "Output Daya: 25 Watt",
+      "Frekuensi Respons: 40 Hz - 22 kHz",
+      "Koneksi: USB, Bluetooth 4.2",
+      "Bobot: 2 kg",
+      "Fitur Khusus: Tahan Air (IPX4)"
+    ]
+  },
+  {
+    "id": 19,
+    "category": "speaker",
+    "name": "AcousticFlow Pro",
+    "price": 1800000,
+    "image": "speaker-3.png",
+    "spesifikasi": [
+      "Output Daya: 18 Watt",
+      "Frekuensi Respons: 60 Hz - 18 kHz",
+      "Koneksi: Aux-In, Bluetooth 5.0",
+      "Bobot: 1.2 kg",
+      "Fitur Khusus: Equalizer 3 Band"
+    ]
+  },
+  {
+    "id": 20,
+    "category": "speaker",
+    "name": "VibraTech Symphony",
+    "price": 2800000,
+    "image": "speaker-4.png",
+    "spesifikasi": [
+      "Output Daya: 30 Watt",
+      "Frekuensi Respons: 35 Hz - 20 kHz",
+      "Koneksi: NFC, Bluetooth 5.1",
+      "Bobot: 2.5 kg",
+      "Fitur Khusus: Mode Pesta"
+    ]
+  },
+  {
+    "id": 21,
+    "category": "speaker",
+    "name": "PureSound Elegance",
+    "price": 2200000,
+    "image": "speaker-5.png",
+    "spesifikasi": [
+      "Output Daya: 22 Watt",
+      "Frekuensi Respons: 55 Hz - 22 kHz",
+      "Koneksi: USB, Bluetooth 4.0",
+      "Bobot: 1.8 kg",
+      "Fitur Khusus: Remote Control"
+    ]
+  },
+  {
+    "id": 22,
+    "category": "speaker",
+    "name": "AudioPulse Nexus",
+    "price": 2600000,
+    "image": "speaker-6.png",
+    "spesifikasi": [
+      "Output Daya: 25 Watt",
+      "Frekuensi Respons: 45 Hz - 22 kHz",
+      "Koneksi: Bluetooth 5.1",
+      "Bobot: 1.8 kg",
+      "Fitur Khusus: Bass Boost Technology"
+    ]
+  }
+]

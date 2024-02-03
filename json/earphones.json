@@ -1,0 +1,86 @@
+[
+  {
+    "id": 11,
+    "category": "earphones",
+    "name": "SonicPro X1",
+    "price": 500000,
+    "image": "earphone-1.png",
+    "spesifikasi": [
+      "Driver: 10mm dynamic driver",
+      "Frekuensi Respons: 20Hz - 20kHz",
+      "Impedansi: 32 ohm",
+      "Sensitivitas: 105dB",
+      "Fitur Tambahan: Kontrol volume, mikrofon terintegrasi"
+    ]
+  },
+  {
+    "id": 12,
+    "category": "earphones",
+    "name": "AudioElite E200",
+    "price": 350000,
+    "image": "earphone-2.png",
+    "spesifikasi": [
+      "Driver: 8mm dynamic driver",
+      "Frekuensi Respons: 18Hz - 22kHz",
+      "Koneksi: Bluetooth 5.0",
+      "Impedansi: 16 ohm",
+      "Fitur Tambahan: Desain noise-canceling"
+    ]
+  },
+  {
+    "id": 13,
+    "category": "earphones",
+    "name": "SoundSync S450",
+    "price": 450000,
+    "image": "earphone-3.png",
+    "spesifikasi": [
+      "Driver: 12mm dynamic driver",
+      "Frekuensi Respons: 15Hz - 25kHz",
+      "Impedansi: 28 ohm",
+      "Koneksi: Kabel USB-C",
+      "Fitur Tambahan: Pengurangan kebisingan pasif, desain ergonomis"
+    ]
+  },
+  {
+    "id": 14,
+    "category": "earphones",
+    "name": "BassBoost B1000",
+    "price": 600000,
+    "image": "earphone-4.png",
+    "spesifikasi": [
+      "Driver: 14mm dynamic driver",
+      "Frekuensi Respons: 10Hz - 20kHz",
+      "Impedansi: 64 ohm",
+      "Koneksi: 3.5mm audio jack",
+      "Fitur Tambahan: Bass Boost Technology, desain metalik"
+    ]
+  },
+  {
+    "id": 15,
+    "category": "earphones",
+    "name": "HarmonyWave H300",
+    "price": 300000,
+    "image": "earphone-5.png",
+    "spesifikasi": [
+      "Driver: 9mm dynamic driver",
+      "Frekuensi Respons: 20Hz - 18kHz",
+      "Impedansi: 20 ohm",
+      "Sensitivitas: 102dB",
+      "Koneksi: Bluetooth 4.2"
+    ]
+  },
+  {
+    "id": 16,
+    "category": "earphones",
+    "name": "PulsePod PZ2",
+    "price": 200000,
+    "image": "earphone-6.png",
+    "spesifikasi": [
+      "Driver: 11mm dynamic driver",
+      "Frekuensi Respons: 25Hz - 20kHz",
+      "Impedansi: 32 ohm",
+      "Koneksi: Kabel 3.5mm dengan konektor L-shaped",
+      "Fitur Tambahan: Desain in-ear, kabel tahan lilit"
+    ]
+  }
+]
