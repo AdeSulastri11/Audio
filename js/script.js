@@ -47,7 +47,7 @@ const bodyTestimoni = document.querySelector(".testimoniBody");
 
 const addDataTestimoniToHTML = () => {
   bodyTestimoni.innerHTML = "";
-  if (listTestimoni.length > 0) {
+  if (listTestimoni.length >= 0) {
     listTestimoni.forEach((e) => {
       let newDataTestimoni = document.createElement("div");
       newDataTestimoni.classList.add("item");
