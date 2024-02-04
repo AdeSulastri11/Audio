@@ -26,7 +26,7 @@ const addDataTestimoni = () => {
 };
 
 const testimoni = () => {
-  fetch("testimoni.json")
+  fetch("json/testimoni.json")
     .then((res) => res.json())
     .then((data) => {
       listTestimoni = data;
