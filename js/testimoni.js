@@ -11,7 +11,7 @@ const addDataTestimoni = () => {
       newDataTestimoni.innerHTML = `
       <div class="p-3 shadow rounded border border-success-subtle">
         <div class="d-flex flex-column align-items-center" >
-          <img src="img/testimoni/${e.image}" class="object-fit-cover" style="width: 100px; border-radius: 100px;aspect-ratio: 1/1;">
+          <img src="../img/testimoni/${e.image}" class="object-fit-cover" style="width: 100px; border-radius: 100px;aspect-ratio: 1/1;">
           <p class="d-flex flex-column align-items-center pt-2"><b>${e.name}</b>
             <q>
               ${e.teks}
