@@ -10,11 +10,11 @@ const addDataTestimoni = () => {
       newDataTestimoni.setAttribute("class", "item col testimoni")
       newDataTestimoni.innerHTML = `
       <div class="p-3 shadow rounded border border-success-subtle">
-        <div class="d-flex flex-column align-items-center">
+        <div class="d-flex flex-column align-items-center" >
           <img src="../img/testimoni/${e.image}" class="object-fit-cover" style="width: 100px; border-radius: 100px;aspect-ratio: 1/1;">
           <p class="d-flex flex-column align-items-center pt-2"><b>${e.name}</b>
             <q>
-              ${e.price}
+              ${e.teks}
             </q>
           </p>
         </div>
@@ -26,7 +26,7 @@ const addDataTestimoni = () => {
 };
 
 const testimoni = () => {
-  fetch("../json/speaker.json")
+  fetch("testimoni.json")
     .then((res) => res.json())
     .then((data) => {
       listTestimoni = data;
