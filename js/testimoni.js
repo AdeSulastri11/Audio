@@ -14,7 +14,7 @@ const addDataTestimoni = () => {
           <img src="../img/testimoni/${e.image}" class="object-fit-cover" style="width: 100px; border-radius: 100px;aspect-ratio: 1/1;">
           <p class="d-flex flex-column align-items-center pt-2"><b>${e.name}</b>
             <q>
-              ${e.teks}
+              ${e.price}
             </q>
           </p>
         </div>
@@ -26,7 +26,7 @@ const addDataTestimoni = () => {
 };
 
 const testimoni = () => {
-  fetch("../json/testimoni.json")
+  fetch("../json/speaker.json")
     .then((res) => res.json())
     .then((data) => {
       listTestimoni = data;
