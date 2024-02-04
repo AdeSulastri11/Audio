@@ -51,7 +51,7 @@ const addDataTestimoniToHTML = () => {
     listTestimoni.forEach((e) => {
       let newDataTestimoni = document.createElement("div");
       newDataTestimoni.classList.add("item");
-      newDataTestimoni.setAttribute("class", "col testimoni")
+      // newDataTestimoni.setAttribute("class", "col testimoni")
       newDataTestimoni.innerHTML = `
       <div class="p-3 shadow rounded border border-success-subtle">
         <div class="d-flex flex-column align-items-center" >
